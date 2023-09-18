@@ -20,6 +20,7 @@ const Offers = () => {
               <div className="py-2 text-gray-500 flex gap-2 items-center">
                 <div>
                   <Image
+                    alt="Tick circle"
                     src="/assets/icons/tick-circle.png"
                     width={20}
                     height={20}
@@ -31,6 +32,7 @@ const Offers = () => {
               <div className="py-2 text-gray-500 flex gap-2 items-center">
                 <div>
                   <Image
+                    alt="Tick circle"
                     src="/assets/icons/tick-circle.png"
                     width={20}
                     height={20}
@@ -42,6 +44,7 @@ const Offers = () => {
               <div className="py-2 text-gray-500 flex gap-2 items-center">
                 <div>
                   <Image
+                    alt="Tick circle"
                     src="/assets/icons/tick-circle.png"
                     width={20}
                     height={20}
@@ -53,6 +56,7 @@ const Offers = () => {
               <div className="py-2 text-gray-500 flex gap-2 items-center">
                 <div>
                   <Image
+                    alt="Tick circle"
                     src="/assets/icons/tick-circle.png"
                     width={20}
                     height={20}
@@ -64,6 +68,7 @@ const Offers = () => {
               <div className="py-2 text-gray-500 flex gap-2 items-center">
                 <div>
                   <Image
+                    alt="Tick circle"
                     src="/assets/icons/tick-circle.png"
                     width={20}
                     height={20}
@@ -75,6 +80,7 @@ const Offers = () => {
               <div className="py-2 text-gray-500 flex gap-2 items-center">
                 <div>
                   <Image
+                    alt="Tick circle"
                     src="/assets/icons/tick-circle.png"
                     width={20}
                     height={20}
@@ -86,6 +92,7 @@ const Offers = () => {
               <div className="py-2 text-gray-500 flex gap-2 items-center">
                 <div>
                   <Image
+                    alt="Tick circle"
                     src="/assets/icons/tick-circle.png"
                     width={20}
                     height={20}
@@ -97,6 +104,7 @@ const Offers = () => {
               <div className="py-2 text-gray-500 flex gap-2 items-center">
                 <div>
                   <Image
+                    alt="Tick circle"
                     src="/assets/icons/tick-circle.png"
                     width={20}
                     height={20}
@@ -108,7 +116,12 @@ const Offers = () => {
           </div>
 
           <div className="lg:mb-0 mb-10 p-10">
-            <Image src="/assets/images/discover.png" width={600} height={600} />
+            <Image
+              alt="Discover image"
+              src="/assets/images/discover.png"
+              width={600}
+              height={600}
+            />
           </div>
         </div>
       </div>

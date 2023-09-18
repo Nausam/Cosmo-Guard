@@ -8,7 +8,7 @@ const Testimonials = () => {
         <h1 className="font-medium text-3xl md:max-w-full max-w-md mx-auto dark:text-gray-300 tracking-wide">
           Trusted by Thousands of Satisfied Customers
         </h1>
-        <h3 className="text-gray-500 mt-5 md:max-w-2xl max-w-md mx-auto tracking-wide">
+        <h3 className="text-gray-500 mt-5 md:max-w-2xl max-w-sm mx-auto tracking-wide">
           Read the testimonials of those who have enthusiastically embraced our
           remarkable features and services.
         </h3>
@@ -18,8 +18,8 @@ const Testimonials = () => {
           <div className="border-2 border-gray-500 hover:border-red-500 md:w-[410px] w-[330px] h-[225px] rounded-md p-5 dark:bg-transparent bg-white">
             <div className="flex items-center gap-4">
               <Image
-                className="rounded-full"
                 alt="Irofile image"
+                className="rounded-full"
                 width={50}
                 height={50}
                 src="/assets/images/profile1.png"
@@ -43,8 +43,8 @@ const Testimonials = () => {
           <div className="border-2 border-gray-500 hover:border-red-500 md:w-[410px] w-[330px] h-[225px] rounded-md p-5 bg-white dark:bg-transparent">
             <div className="flex items-center gap-4">
               <Image
-                className="rounded-full"
                 alt="Profile image"
+                className="rounded-full"
                 width={50}
                 height={50}
                 src="/assets/images/profile2.webp"
@@ -68,8 +68,8 @@ const Testimonials = () => {
           <div className="border-2 border-gray-500 hover:border-red-500 md:w-[410px] w-[330px] h-[225px] rounded-md p-5 bg-white dark:bg-transparent">
             <div className="flex items-center gap-4">
               <Image
-                className="rounded-full"
                 alt="Profile image"
+                className="rounded-full"
                 width={50}
                 height={50}
                 src="/assets/images/profile3.png"
@@ -95,8 +95,8 @@ const Testimonials = () => {
           <div className="border-2 border-gray-500 hover:border-red-500 md:w-[410px] w-[330px] h-[225px] rounded-md p-5 bg-white dark:bg-transparent">
             <div className="flex items-center gap-4">
               <Image
-                className="rounded-full"
                 alt="Profile image"
+                className="rounded-full"
                 width={50}
                 height={50}
                 src="/assets/images/profile4.png"
@@ -119,7 +119,7 @@ const Testimonials = () => {
         </div>
 
         <div className="w-full border dark:border-gray-700 rounded-md shadow-xl p-14 mx-auto mt-10">
-          <div className="flex md:flex-row flex-col justify-between ">
+          <div className="flex lg:flex-row flex-col justify-between ">
             <div>
               <h1 className="font-medium lg:text-2xl  text-xl md:max-w-full max-w-sm dark:text-gray-300 tracking-wide">
                 Unlock Exclusive Features with a Subscription!
@@ -130,7 +130,7 @@ const Testimonials = () => {
               </p>
             </div>
 
-            <button className="tracking-wide border-2 md:mt-0 mt-5 border-red-500 md:py-1 py-3 px-12 rounded-full  font-bold bg-red-500 dark:text-white dark:hover:bg-transparent text-white hover:bg-white hover:text-gray-800 transition-all duration-300">
+            <button className="tracking-wide border-2 md:mt-3 mt-5 border-red-500 md:py-3 py-3 px-12 rounded-full   font-bold bg-red-500 dark:text-white dark:hover:bg-transparent text-white hover:bg-white hover:text-gray-800 transition-all duration-300">
               Subscribe
             </button>
           </div>

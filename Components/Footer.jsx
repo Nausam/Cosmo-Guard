@@ -8,7 +8,7 @@ const Footer = () => {
     <footer id="footer" className="w-full mt-20">
       <div className="md:hidden w-full flex flex-col gap-2 items-center text-center mt-10">
         <div className="flex items-center gap-3">
-          <Image src={Logo} width={35} height={35} alt="Logo" />
+          <Image alt="Logo" src={Logo} width={35} height={35} />
           <h3 className="font-bold dark:text-gray-300 text-gray-800 text-lg tracking-wide">
             Cosmo Guard
           </h3>
@@ -45,7 +45,7 @@ const Footer = () => {
         <div className="flex justify-between shadow-lg w-full p-5">
           <div className="md:flex flex-col gap-2 hidden">
             <div className="flex items-center gap-3">
-              <Image src={Logo} width={35} height={35} alt="Logo" />
+              <Image alt="Logo" src={Logo} width={35} height={35} />
               <h3 className="font-bold dark:text-gray-300 text-gray-800 text-lg ">
                 Cosmo Guard
               </h3>

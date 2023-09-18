@@ -24,65 +24,12 @@ const Hero = () => {
 
           <div className="lg:mt-0 mt-14">
             <Image
-              src="/assets/images/connected.png"
               alt="Hero image"
+              src="/assets/images/connected.png"
               width={800}
               height={200}
+              priority
             />
-          </div>
-        </div>
-      </div>
-
-      <div className="flex rounded-lg border dark:border-gray-700 max-w-6xl mx-auto m-5 py-6 px-16 items-center mt-20 justify-between shadow-xl flex-wrap gap-2">
-        <div className="flex gap-4">
-          <div className="bg-gray-200 dark:bg-slate-900 rounded-full">
-            <Image
-              className="saturate-150"
-              src="/assets/icons/user-red.png"
-              width={50}
-              height={50}
-            />
-          </div>
-          <div>
-            <h1 className="font-bold dark:text-gray-300 text-gray-800 tracking-wide">
-              100,000 +
-            </h1>
-            <h3 className="text-gray-500 tracking-wide">Users</h3>
-          </div>
-        </div>
-
-        <div className="flex gap-4">
-          <div className="bg-gray-200 dark:bg-slate-900 rounded-full">
-            <Image
-              className="saturate-150"
-              alt="Location"
-              src="/assets/icons/location-red.png"
-              width={50}
-              height={50}
-            />
-          </div>
-          <div>
-            <h1 className="font-bold dark:text-gray-300 text-gray-800 tracking-wide">
-              50,000 +
-            </h1>
-            <h3 className="text-gray-500 tracking-wide">Locations</h3>
-          </div>
-        </div>
-
-        <div className="flex gap-4 my-5">
-          <div className="bg-gray-200 dark:bg-slate-900 rounded-full">
-            <Image
-              className="saturate-150"
-              src="/assets/icons/wifi-red.png"
-              width={50}
-              height={40}
-            />
-          </div>
-          <div>
-            <h1 className="font-bold dark:text-gray-300 text-gray-800 tracking-wide">
-              30,000 +
-            </h1>
-            <h3 className="text-gray-500 tracking-wide">Servers</h3>
           </div>
         </div>
       </div>

@@ -20,10 +20,10 @@ const Navbar = () => {
           <ThemeButton />
           <div className="flex items-center gap-2">
             <Image
+              alt="Logo"
               src="/assets/icons/logo.png"
               width={35}
               height={35}
-              alt="Logo"
             />
             <h3 className="font-medium dark:text-gray-300 text-gray-800 text-lg hidden md:flex tracking-wide">
               Cosmo Guard
@@ -79,11 +79,11 @@ const Navbar = () => {
             Sign Up
           </button>
           <Image
+            alt="Hamburger menu"
             className="z-50 cursor-pointer lg:hidden flex text-red-500"
             width={30}
             height={30}
             src="/assets/icons/hamburger.png"
-            alt="Hamburger menu"
             onClick={toggleMenu}
           />
         </div>

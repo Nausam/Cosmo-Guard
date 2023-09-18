@@ -8,7 +8,7 @@ const ChoosePlan = () => {
         <h1 className="font-medium dark:text-gray-300 text-4xl mx-auto md:max-w-full max-w-md tracking-wide">
           Select Your Subscription Plan
         </h1>
-        <h3 className="text-gray-500 mt-5 md:max-w-2xl max-w-md mx-auto tracking-wide">
+        <h3 className="text-gray-500 mt-5 md:max-w-2xl max-w-sm mx-auto tracking-wide">
           Choose the package that best suits your needs and embark on your
           exploration with enthusiasm and joy.
         </h3>
