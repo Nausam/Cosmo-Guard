@@ -15,8 +15,8 @@ const Hero = () => {
         <div className="flex lg:flex-row flex-col items-center mx-auto">
           <motion.div
             ref={ref}
-            initial={{ opacity: 0, scale: 0 }}
-            animate={inView ? { opacity: 1, scale: 1 } : {}}
+            initial={{ opacity: 0, x: -100 }}
+            animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.5 }}
             className="lg:text-left text-center"
           >
