@@ -15,7 +15,7 @@ const About = () => {
           </div>
 
           <div className="lg:ml-20 lg:max-w-lg max-w-full">
-            <h1 className="md:text-4xl text-2xl md:max-w-full max-w-md font-medium dark:text-gray-300 tracking-wide">
+            <h1 className="md:text-4xl text-2xl md:max-w-full max-w-md font-bold dark:text-gray-300 tracking-wide">
               Why Choose Us?
             </h1>
             <h3 className="mt-5 text-gray-500 tracking-wide md:max-w-2xl max-w-sm">

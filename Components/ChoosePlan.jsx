@@ -2,7 +2,7 @@ const ChoosePlan = () => {
   return (
     <section id="pricing" className="w-full">
       <div className="text-center mt-20">
-        <h1 className="font-medium dark:text-gray-300 text-4xl mx-auto md:max-w-full max-w-md tracking-wide">
+        <h1 className="font-bold dark:text-gray-300 md:text-4xl text-2xl mx-auto md:max-w-full max-w-md tracking-wide">
           Select Your Subscription Plan
         </h1>
         <h3 className="text-gray-500 mt-5 md:max-w-2xl max-w-sm mx-auto tracking-wide">

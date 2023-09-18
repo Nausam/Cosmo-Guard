@@ -4,7 +4,7 @@ const Testimonials = () => {
   return (
     <section id="testimonials" className="w-full">
       <div className="text-center mt-28">
-        <h1 className="font-medium text-3xl md:max-w-full max-w-md mx-auto dark:text-gray-300 tracking-wide">
+        <h1 className="font-bold md:text-4xl text-2xl md:max-w-full max-w-md mx-auto dark:text-gray-300 tracking-wide">
           Trusted by Thousands of Satisfied Customers
         </h1>
         <h3 className="text-gray-500 mt-5 md:max-w-2xl max-w-sm mx-auto tracking-wide">
@@ -123,7 +123,7 @@ const Testimonials = () => {
               <h1 className="font-medium lg:text-2xl  text-xl md:max-w-full max-w-sm dark:text-gray-300 tracking-wide">
                 Unlock Exclusive Features with a Subscription!
               </h1>
-              <p className="text-gray-500 lg:text-base  text-sm mt-3 tracking-wide">
+              <p className="text-gray-500 font-medium lg:text-base text-sm mt-3 tracking-wide">
                 Join us today to access premium benefits and elevate your online
                 experience.
               </p>
