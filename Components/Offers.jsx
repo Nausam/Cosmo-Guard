@@ -1,12 +1,25 @@
+"use client";
+
 import Image from "next/image";
-import React from "react";
+import { useInView } from "react-intersection-observer";
+import { motion } from "framer-motion";
 
 const Offers = () => {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
+
   return (
     <section id="features" className="w-full">
-      <div className="flex max-w-6xl mx-auto justify-between mt-32">
+      <div className="flex max-w-6xl mx-auto justify-between mt-10">
         <div className="flex lg:flex-row flex-col lg:justify-between mx-auto items-center justify-center lg:text-left text-center">
-          <div className="lg:ml-20 lg:max-w-lg max-w-md">
+          <motion.div
+            ref={ref}
+            initial={{ opacity: 0, x: -200 }}
+            animate={inView ? { opacity: 1, x: 0 } : {}}
+            transition={{ duration: 0.5 }}
+            className="lg:ml-20 lg:max-w-lg max-w-md"
+          >
             <h1 className="md:text-4xl text-2xl md:max-w-full max-w-md font-medium dark:text-gray-300 tracking-wide">
               Discover Our <br className="hidden lg:block" />
               Abundance of Features
@@ -113,16 +126,22 @@ const Offers = () => {
                 <p className="tracking-wide">Kill Switch</p>
               </div>
             </div>
-          </div>
+          </motion.div>
 
-          <div className="lg:mb-0 mb-10 p-10">
+          <motion.div
+            ref={ref}
+            initial={{ opacity: 0, x: 200 }}
+            animate={inView ? { opacity: 1, x: 0 } : {}}
+            transition={{ duration: 0.5 }}
+            className="lg:mb-0 mb-10 p-10"
+          >
             <Image
               alt="Discover image"
               src="/assets/images/discover.png"
               width={600}
               height={600}
             />
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

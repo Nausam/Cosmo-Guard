@@ -1,10 +1,23 @@
+"use client";
+
 import Image from "next/image";
-import React from "react";
+import { useInView } from "react-intersection-observer";
+import { motion } from "framer-motion";
 
 const Testimonials = () => {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
+
   return (
     <section id="testimonials" className="w-full">
-      <div className="text-center mt-28">
+      <motion.div
+        ref={ref}
+        initial={{ opacity: 0, y: -50 }}
+        animate={inView ? { opacity: 1, y: 0 } : {}}
+        transition={{ duration: 0.5 }}
+        className="text-center mt-28"
+      >
         <h1 className="font-medium text-3xl md:max-w-full max-w-md mx-auto dark:text-gray-300 tracking-wide">
           Trusted by Thousands of Satisfied Customers
         </h1>
@@ -12,10 +25,16 @@ const Testimonials = () => {
           Read the testimonials of those who have enthusiastically embraced our
           remarkable features and services.
         </h3>
-      </div>
+      </motion.div>
       <div className="flex flex-col max-w-6xl mx-auto m-5 py-2 px-10 items-center mt-5 p-5">
         <div className="flex w-full items-center justify-center p-10 gap-5 flex-wrap dark:bg-transparent bg-gray-100 rounded-lg">
-          <div className="border-2 border-gray-500 hover:border-red-500 md:w-[410px] w-[330px] h-[225px] rounded-md p-5 dark:bg-transparent bg-white">
+          <motion.div
+            ref={ref}
+            initial={{ opacity: 0, x: -50 }}
+            animate={inView ? { opacity: 1, x: 0 } : {}}
+            transition={{ duration: 0.5 }}
+            className="border-2 border-gray-500 hover:border-red-500 md:w-[410px] w-[330px] h-[225px] rounded-md p-5 dark:bg-transparent bg-white"
+          >
             <div className="flex items-center gap-4">
               <Image
                 alt="Irofile image"
@@ -38,9 +57,15 @@ const Testimonials = () => {
               impressed. It's not only user-friendly but also highly efficient.
               I can't recommend it enough!"
             </p>
-          </div>
+          </motion.div>
 
-          <div className="border-2 border-gray-500 hover:border-red-500 md:w-[410px] w-[330px] h-[225px] rounded-md p-5 bg-white dark:bg-transparent">
+          <motion.div
+            ref={ref}
+            initial={{ opacity: 0, x: 50 }}
+            animate={inView ? { opacity: 1, x: 0 } : {}}
+            transition={{ duration: 0.5 }}
+            className="border-2 border-gray-500 hover:border-red-500 md:w-[410px] w-[330px] h-[225px] rounded-md p-5 bg-white dark:bg-transparent"
+          >
             <div className="flex items-center gap-4">
               <Image
                 alt="Profile image"
@@ -63,9 +88,15 @@ const Testimonials = () => {
               everything so much easier and faster. I'm extremely happy with the
               results."
             </p>
-          </div>
+          </motion.div>
 
-          <div className="border-2 border-gray-500 hover:border-red-500 md:w-[410px] w-[330px] h-[225px] rounded-md p-5 bg-white dark:bg-transparent">
+          <motion.div
+            ref={ref}
+            initial={{ opacity: 0, x: -50 }}
+            animate={inView ? { opacity: 1, x: 0 } : {}}
+            transition={{ duration: 0.5 }}
+            className="border-2 border-gray-500 hover:border-red-500 md:w-[410px] w-[330px] h-[225px] rounded-md p-5 bg-white dark:bg-transparent"
+          >
             <div className="flex items-center gap-4">
               <Image
                 alt="Profile image"
@@ -90,9 +121,15 @@ const Testimonials = () => {
               Whenever I had a question or an issue, their team was quick to
               respond and provided excellent assistance."
             </p>
-          </div>
+          </motion.div>
 
-          <div className="border-2 border-gray-500 hover:border-red-500 md:w-[410px] w-[330px] h-[225px] rounded-md p-5 bg-white dark:bg-transparent">
+          <motion.div
+            ref={ref}
+            initial={{ opacity: 0, x: 100 }}
+            animate={inView ? { opacity: 1, x: 0 } : {}}
+            transition={{ duration: 0.5 }}
+            className="border-2 border-gray-500 hover:border-red-500 md:w-[410px] w-[330px] h-[225px] rounded-md p-5 bg-white dark:bg-transparent"
+          >
             <div className="flex items-center gap-4">
               <Image
                 alt="Profile image"
@@ -115,11 +152,17 @@ const Testimonials = () => {
               come close to the level of performance and satisfaction I've
               experienced with this one."
             </p>
-          </div>
+          </motion.div>
         </div>
 
         <div className="w-full border dark:border-gray-700 rounded-md shadow-xl p-14 mx-auto mt-10">
-          <div className="flex lg:flex-row flex-col justify-between ">
+          <motion.div
+            ref={ref}
+            initial={{ opacity: 0 }}
+            animate={inView ? { opacity: 1 } : {}}
+            transition={{ duration: 0.5 }}
+            className="flex lg:flex-row flex-col justify-between "
+          >
             <div>
               <h1 className="font-medium lg:text-2xl  text-xl md:max-w-full max-w-sm dark:text-gray-300 tracking-wide">
                 Unlock Exclusive Features with a Subscription!
@@ -133,7 +176,7 @@ const Testimonials = () => {
             <button className="tracking-wide border-2 md:mt-3 mt-5 border-red-500 md:py-3 py-3 px-12 rounded-full   font-bold bg-red-500 dark:text-white dark:hover:bg-transparent text-white hover:bg-white hover:text-gray-800 transition-all duration-300">
               Subscribe
             </button>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

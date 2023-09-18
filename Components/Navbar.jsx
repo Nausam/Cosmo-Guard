@@ -30,7 +30,7 @@ const Navbar = () => {
             </h3>
           </div>
         </div>
-        <div className="lg:flex hidden lg:gap-10 gap-3 text-gray-500">
+        <div className="lg:flex hidden lg:gap-10 gap-3 text-gray-500 dark:text-gray-400">
           <ul className="flex gap-10">
             <li>
               <Link className="text-md hover:text-red-500" href="#about">
