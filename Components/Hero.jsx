@@ -1,14 +1,9 @@
 "use client";
 
 import Image from "next/image";
-import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 
 const Hero = () => {
-  const [ref, inView] = useInView({
-    triggerOnce: true,
-  });
-
   return (
     <section className="w-full">
       <div className="flex max-w-6xl mx-auto m-5 py-2 px-10 items-center mt-10 p-5">
@@ -24,9 +19,8 @@ const Hero = () => {
           </div>
 
           <motion.div
-            ref={ref}
-            initial={{ opacity: 0, x: -100 }}
-            animate={inView ? { opacity: 1, x: 0 } : {}}
+            initial={{ opacity: 0, scale: 0 }}
+            animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
             className="lg:text-left text-center mt-10"
           >
@@ -46,9 +40,8 @@ const Hero = () => {
           </motion.div>
 
           <motion.div
-            ref={ref}
             initial={{ opacity: 0, scale: 2 }}
-            animate={inView ? { opacity: 1, scale: 1 } : {}}
+            animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
             className="lg:flex hidden lg:mt-0 mt-14"
           >
