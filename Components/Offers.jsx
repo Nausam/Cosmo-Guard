@@ -3,15 +3,11 @@ import React from "react";
 
 const Offers = () => {
   return (
-    <section className="w-full">
+    <section id="features" className="w-full">
       <div className="flex max-w-6xl mx-auto justify-between mt-32">
         <div className="flex lg:flex-row flex-col lg:justify-between mx-auto items-center justify-center lg:text-left text-center">
-          <div className="lg:mb-0 mb-10 p-10">
-            <Image src="/assets/images/discover.png" width={600} height={600} />
-          </div>
-
-          <div className="lg:ml-20 lg:max-w-lg max-w-full">
-            <h1 className="text-2xl font-medium dark:text-gray-300 tracking-wide">
+          <div className="lg:ml-20 lg:max-w-lg max-w-md">
+            <h1 className="md:text-4xl text-2xl md:max-w-full max-w-md font-medium dark:text-gray-300 tracking-wide">
               Discover Our <br className="hidden lg:block" />
               Abundance of Features
             </h1>
@@ -109,6 +105,10 @@ const Offers = () => {
                 <p className="tracking-wide">Kill Switch</p>
               </div>
             </div>
+          </div>
+
+          <div className="lg:mb-0 mb-10 p-10">
+            <Image src="/assets/images/discover.png" width={600} height={600} />
           </div>
         </div>
       </div>

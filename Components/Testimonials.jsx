@@ -3,7 +3,7 @@ import React from "react";
 
 const Testimonials = () => {
   return (
-    <section className="w-full">
+    <section id="testimonials" className="w-full">
       <div className="text-center mt-28">
         <h1 className="font-medium text-3xl md:max-w-full max-w-md mx-auto dark:text-gray-300 tracking-wide">
           Trusted by Thousands of Satisfied Customers

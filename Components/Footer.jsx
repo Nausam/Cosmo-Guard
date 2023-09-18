@@ -5,7 +5,7 @@ import Logo from "../public/assets/icons/logo.png";
 
 const Footer = () => {
   return (
-    <footer className="w-full mt-20">
+    <footer id="footer" className="w-full mt-20">
       <div className="md:hidden w-full flex flex-col gap-2 items-center text-center mt-10">
         <div className="flex items-center gap-3">
           <Image src={Logo} width={35} height={35} alt="Logo" />

@@ -5,7 +5,7 @@ const GlobalNetwork = () => {
   return (
     <section className="w-full">
       <div className="text-center mt-36">
-        <h1 className="font-medium text-3xl md:max-w-full max-w-md mx-auto dark:text-gray-300 tracking-wide">
+        <h1 className="font-medium text-4xl md:max-w-full max-w-md mx-auto dark:text-gray-300 tracking-wide">
           Extensive Global Network of High-Speed VPN Servers
         </h1>
         <h3 className="text-gray-500 mt-5 md:max-w-2xl max-w-md mx-auto tracking-wide">
@@ -21,10 +21,6 @@ const GlobalNetwork = () => {
             src="/assets/images/global.png"
             alt="World map"
           />
-        </div>
-
-        <div className="flex w-full items-center justify-center mt-10">
-          <Image width={1000} height={200} src="/assets/images/Sponsored.png" />
         </div>
       </div>
     </section>

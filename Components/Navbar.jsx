@@ -33,14 +33,14 @@ const Navbar = () => {
         <div className="lg:flex hidden lg:gap-10 gap-3 text-gray-500">
           <ul className="flex gap-10">
             <li>
-              <Link className="text-md hover:text-red-500" href="/">
+              <Link className="text-md hover:text-red-500" href="#about">
                 About
               </Link>
             </li>
             <li>
               <Link
                 className="text-md tracking-wide hover:text-red-500"
-                href="/"
+                href="#features"
               >
                 Features
               </Link>
@@ -48,7 +48,7 @@ const Navbar = () => {
             <li>
               <Link
                 className="text-md tracking-wide hover:text-red-500"
-                href="/"
+                href="#pricing"
               >
                 Pricing
               </Link>
@@ -56,7 +56,7 @@ const Navbar = () => {
             <li>
               <Link
                 className="tracking-wide text-md hover:text-red-500"
-                href="/"
+                href="#testimonials"
               >
                 Testimonials
               </Link>
@@ -64,7 +64,7 @@ const Navbar = () => {
             <li>
               <Link
                 className=" tracking-wide text-md hover:text-red-500"
-                href="/"
+                href="#footer"
               >
                 Help
               </Link>
@@ -95,7 +95,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     className="text-sm hover:text-red-500 tracking-wide"
-                    href="/"
+                    href="#about"
                   >
                     About
                   </Link>
@@ -103,7 +103,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     className="text-sm hover:text-red-500 tracking-wide"
-                    href="/"
+                    href="#features"
                   >
                     Features
                   </Link>
@@ -111,7 +111,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     className="text-sm hover:text-red-500 tracking-wide"
-                    href="/"
+                    href="#pricing"
                   >
                     Pricing
                   </Link>
@@ -119,7 +119,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     className="text-sm hover:text-red-500 tracking-wide"
-                    href="/"
+                    href="#testimonials"
                   >
                     Testimonials
                   </Link>
@@ -127,7 +127,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     className="text-sm hover:text-red-500 tracking-wide"
-                    href="/"
+                    href="#footer"
                   >
                     Help
                   </Link>

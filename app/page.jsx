@@ -1,3 +1,4 @@
+import About from "@/Components/About";
 import ChoosePlan from "@/Components/ChoosePlan";
 import Footer from "@/Components/Footer";
 import GlobalNetwork from "@/Components/GlobalNetwork";
@@ -11,6 +12,7 @@ export default function Home() {
     <section>
       <Navbar />
       <Hero />
+      <About />
       <Offers />
       <ChoosePlan />
       <GlobalNetwork />

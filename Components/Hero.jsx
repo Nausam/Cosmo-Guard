@@ -45,7 +45,7 @@ const Hero = () => {
           </div>
           <div>
             <h1 className="font-bold dark:text-gray-300 text-gray-800 tracking-wide">
-              10,000 +
+              100,000 +
             </h1>
             <h3 className="text-gray-500 tracking-wide">Users</h3>
           </div>
@@ -63,7 +63,7 @@ const Hero = () => {
           </div>
           <div>
             <h1 className="font-bold dark:text-gray-300 text-gray-800 tracking-wide">
-              15,000 +
+              50,000 +
             </h1>
             <h3 className="text-gray-500 tracking-wide">Locations</h3>
           </div>
@@ -80,7 +80,7 @@ const Hero = () => {
           </div>
           <div>
             <h1 className="font-bold dark:text-gray-300 text-gray-800 tracking-wide">
-              5,000 +
+              30,000 +
             </h1>
             <h3 className="text-gray-500 tracking-wide">Servers</h3>
           </div>
