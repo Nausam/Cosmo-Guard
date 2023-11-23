@@ -1,7 +1,7 @@
 const ChoosePlan = () => {
   return (
     <section id="pricing" className="w-full">
-      <div className="text-center mt-20">
+      <div className="text-center mt-36">
         <h1 className="font-bold dark:text-gray-300 md:text-4xl text-2xl mx-auto md:max-w-full max-w-md tracking-wide">
           Select Your Subscription Plan
         </h1>
@@ -12,7 +12,7 @@ const ChoosePlan = () => {
       </div>
       <div className="flex max-w-6xl mx-auto m-5 py-2 px-10 items-center mt-10 p-5">
         <div className="flex flex-wrap items-center justify-center gap-10 mx-auto">
-          <div className="border-2 shadow-xl  border-gray-400 hover:border-red-500 dark:hover:border-red-500 dark:border-gray-800 rounded-3xl p-10">
+          <div className="border-2 shadow-xl shadow-slate-200 dark:shadow-none  border-gray-400 hover:border-red-500 dark:hover:border-red-500 dark:border-gray-800 rounded-3xl p-10">
             <div className="flex flex-col items-center justify-center w-full h-full">
               <h2 className="mt-8 font-bold text-3xl dark:text-gray-300 tracking-wide">
                 Free Plan
@@ -34,7 +34,7 @@ const ChoosePlan = () => {
             </div>
           </div>
 
-          <div className="border-2 shadow-xl  border-orange-400 dark:border-orange-500 hover:border-red-500 dark:hover:border-red-500  rounded-3xl p-10">
+          <div className="border-2 shadow-xl shadow-slate-200 dark:shadow-none   border-orange-400 dark:border-orange-500 hover:border-red-500 dark:hover:border-red-500  rounded-3xl p-10">
             <div className="flex flex-col items-center justify-center w-full h-full">
               <h2 className="mt-8 font-bold text-3xl dark:text-gray-300 tracking-wide">
                 1 Month
@@ -59,7 +59,7 @@ const ChoosePlan = () => {
             </div>
           </div>
 
-          <div className="border-2 shadow-xl border-gray-400 hover:border-red-500 dark:hover:border-red-500 dark:border-gray-800 rounded-3xl p-10">
+          <div className="border-2 shadow-xl shadow-slate-200 dark:shadow-none  border-gray-400 hover:border-red-500 dark:hover:border-red-500 dark:border-gray-800 rounded-3xl p-10">
             <div className="flex flex-col items-center justify-center w-full h-full">
               <h2 className="mt-8 font-bold text-3xl dark:text-gray-300 tracking-wide">
                 12 Months

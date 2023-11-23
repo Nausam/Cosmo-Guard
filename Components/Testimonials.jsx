@@ -3,7 +3,7 @@ import Image from "next/image";
 const Testimonials = () => {
   return (
     <section id="testimonials" className="w-full">
-      <div className="text-center mt-28">
+      <div className="text-center mt-36">
         <h1 className="font-bold md:text-4xl text-2xl md:max-w-full max-w-md mx-auto dark:text-gray-300 tracking-wide">
           Trusted by Thousands of Satisfied Customers
         </h1>
@@ -13,7 +13,7 @@ const Testimonials = () => {
         </h3>
       </div>
       <div className="flex flex-col max-w-6xl mx-auto py-2 px-10 items-center p-5">
-        <div className="flex w-full items-center justify-center p-10 gap-5 flex-wrap dark:bg-transparent bg-gray-100 rounded-lg">
+        <div className="flex w-full items-center justify-center p-10 gap-5 flex-wrap dark:bg-transparent shadow-lg shadow-slate-200 dark:shadow-none rounded-lg">
           <div className="border-2 border-gray-500 hover:border-red-500 md:w-[410px] w-[330px] h-[225px] rounded-md p-5 dark:bg-transparent bg-white">
             <div className="flex items-center gap-4">
               <Image
@@ -117,7 +117,7 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <div className="w-full border dark:border-gray-700 rounded-md shadow-xl p-14 mx-auto mt-10">
+        <div className="w-full border dark:border-gray-700 rounded-md shadow-lg shadow-slate-200 dark:shadow-none p-14 mx-auto mt-20">
           <div className="flex lg:flex-row flex-col justify-between ">
             <div>
               <h1 className="font-medium lg:text-2xl  text-xl md:max-w-full max-w-sm dark:text-gray-300 tracking-wide">
@@ -129,7 +129,7 @@ const Testimonials = () => {
               </p>
             </div>
 
-            <button className="tracking-wide border-2 md:mt-3 mt-5 border-red-500 md:py-3 py-3 px-12 rounded-full   font-bold bg-red-500 dark:text-white dark:hover:bg-transparent text-white hover:bg-white hover:text-gray-800 transition-all duration-300">
+            <button className="tracking-wide border-2 md:mt-3 mt-5 border-red-500 md:py-3 py-3 px-12 rounded-full font-bold bg-red-500 dark:text-white dark:hover:bg-transparent text-white hover:bg-white hover:text-gray-800 transition-all duration-300">
               Subscribe
             </button>
           </div>

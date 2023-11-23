@@ -14,8 +14,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full">
-      <div className="flex max-w-6xl mx-auto justify-between m-5 py-2 px-10 items-center">
+    <nav className="w-full fixed top-0 backdrop-blur-lg">
+      <div className="flex max-w-6xl mx-auto justify-between m-2 py-2 px-10 items-center backdrop-blur-lg rounded-md shadow-lg dark:shadow-none shadow-slate-100">
         <div className="flex items-center gap-3">
           <ThemeButton />
           <div className="flex items-center gap-2">

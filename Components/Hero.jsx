@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <section className="w-full">
-      <div className="flex max-w-6xl mx-auto m-5 py-2 px-10 items-center mt-10 p-5">
+      <div className="flex max-w-6xl mx-auto m-5 py-2 px-10 items-center mt-28 p-5">
         <div className="flex lg:flex-row flex-col items-center mx-auto">
           <div className="lg:hidden flex lg:mt-0 mt-10">
             <Image

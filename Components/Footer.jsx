@@ -5,7 +5,7 @@ import Logo from "../public/assets/icons/logo.png";
 
 const Footer = () => {
   return (
-    <footer id="footer" className="w-full mt-20">
+    <footer id="footer" className="w-full mt-36">
       <div className="md:hidden w-full flex flex-col gap-2 items-center text-center mt-10">
         <div className="flex items-center gap-3">
           <Image alt="Logo" src={Logo} width={35} height={35} />
@@ -20,7 +20,7 @@ const Footer = () => {
         </p>
       </div>
       <div className="flex max-w-6xl mx-auto justify-between m-5 py-2 px-10 items-center">
-        <div className="flex justify-between shadow-lg w-full p-5">
+        <div className="flex justify-between shadow-lg shadow-slate-200 dark:shadow-none w-full p-5">
           <div>
             <h3 className="font-medium dark:gray-300 tracking-wide">Product</h3>
             <ul className="text-xs text-gray-500 space-y-2 mt-3">
